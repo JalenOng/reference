@@ -1,14 +1,11 @@
-# reference
+#Reference
 
-#When faced with postgress issues
+#When faced with postgres issues
 
-`pg_ctl restart'
+pg_ctl restart
 
-[5:10] 
- ```mkdir ~/.postgres```
+mkdir ~/.postgres
 
-[5:10] 
- ```initdb ~/.postgres```
+initdb ~/.postgres
 
-[5:10] 
- ```pg_ctl -D ~/.postgres start
+pg_ctl -D ~/.postgres start
